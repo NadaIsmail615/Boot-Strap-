@@ -1,0 +1,33 @@
+:root {
+    --main-color :#f1f1f1 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  var(--main-color) !important;
+}
+
+.navbar {
+}
+.navbar-brand:hover {
+    text-shadow: 10px 10px 20px white, -10px -10px 20px white;
+}
+.dropdown-item {
+    text-shadow: 1px 1px 0px black;
+}
+.carousel-item  img {
+    height: 500px;
+}
+.row{
+    text-align: center;
+}
+.bg_img {
+    height: 400px;
+    background: url(../images/bg1.jpg)  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.white{
+    border-radius: 50%;
+}
